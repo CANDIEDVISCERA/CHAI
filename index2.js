@@ -6,7 +6,7 @@ const commands = [{
   description: 'Replies with Pong!'
 }]; 
 
-const rest = new REST({ version: '9' }).setToken('Njk3NjMyOTQ3MTM3Njc1Mjc0.Xo6HTw.Cgb64Ou_x5DjFpOi0aOOjcgxiKk');
+const rest = new REST({ version: '9' }).setToken('token');
 
 (async () => {
   try {
@@ -37,4 +37,4 @@ client.on('interactionCreate', async interaction => {
   }
 });
 
-client.login('Njk3NjMyOTQ3MTM3Njc1Mjc0.Xo6HTw.Cgb64Ou_x5DjFpOi0aOOjcgxiKk');
+client.login('token');

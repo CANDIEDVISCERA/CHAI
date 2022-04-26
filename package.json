@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.31.2",
+    "discord.js": "^13.6.0"
+  },
+  "name": "package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salface/CHAI.git"
+  },
+  "author": "CANDIEDVISCERA (Hound)",
+  "license": "ISC",
+  "description": "package for chai",
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  }
+}

@@ -22,8 +22,6 @@ client.on('message', message => {
 		Hotlines: Sends a list of hotlines
 		First aid: Sends a website with first aid resources
 		Resources: Sends a document of resources`) {
-	} else if (message.content === `${prefix}breathe`) {
-		message.channel.send(`Here's a breathing GIF! Save travels <3! https://dailyburn.com/life/wp-content/uploads/2016/04/circle-gif-2.gif`) {
 	} else if (message.content === `${prefix}hotlines`) {
 		message.channel.send(`I hope you're doing okay! Here's a list of hotlines! Suicide Hotline: 1-800-784-8433  
 		List of international suicide hotlines: http://www.suicide.org/international-suicide-hotlines.html 
@@ -32,3 +30,8 @@ client.on('message', message => {
 		message.channel.send(`Here's basic first aid resources: https://www.verywellhealth.com/basic-first-aid-procedures-1298578#:~:text=What%20are%20the%20ABCs%20of,%2C%20breathing%2C%20and%20continue%20care.`) {
 	} else if (message.content === `${prefix}resources`
 		   message.channel.send(`Here's a Google Doc of various coping skills and other resources! Safe travels <3!`)
+	} else if (message.content === `${prefix}breathe`) {
+    		const attachment = new MessageAttachment('https://dailyburn.com/life/wp-content/uploads/2016/04/circle-gif-2.gif');
+    		   message.channel.send(attachment);
+	});
+

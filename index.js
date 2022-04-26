@@ -19,11 +19,7 @@ client.on('message', message => {
 		message.channel.send('Boop.');
 	} else if (message.content === `${prefix}server`) {
 		message.channel.send(`This server's name is: ${message.guild.name}`);
-	}
-	//else if (message.content === `${prefix}Hi`);
-		//message.channel.send(`Hi!`) {
-	} 
-	// this command sells all your data to China
-	//else if (message.content === `${prefix}deez`); {
-		//message.channel.send(`Nuts.`) {
-});
+	} else if (message.content === `${prefix}hello`) {
+		message.channel.send(`Hello {message.author.name}!`) {
+	} else if (message.content === `${prefix}help`) { 
+		message.channel.send(`Nice to meet you! My name is CHAI. I am a bot that has resources for mental health. I AM UNDER CONSTRUCTION!`) {

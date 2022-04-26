@@ -19,5 +19,8 @@ client.on('message', message => {
 		message.channel.send('Boop.');
 	} else if (message.content === `${prefix}server`) {
 		message.channel.send(`This server's name is: ${message.guild.name}`);
-	}
+	} else if (message.content === `${prefix}Hi`);
+		message.channel.send(`Hi!`) {
+	} else if (message.content === `${prefix}deez`); {
+		message.channel.send(`Nuts.`) {
 });

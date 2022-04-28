@@ -16,7 +16,7 @@ client.on('message', message => {
 	if (message.content === `${prefix}hello`) {
 		message.channel.send(`Hello ${message.author.name}!`) {
 	} else if (message.content === `${prefix}help`) { 
-		message.channel.send(`Nice to meet you! My name is CHAI. I am a bot that has resources for mental health.
+		message.channel.send(`Nice to meet you! My name is CHAI. I am a bot that has resources for mental health. My prefix is ``*``
 		I AM UNDER CONSTRUCTION! Current commands:
 		Breathe: Sends a breathing exercise GIF
 		Hotlines: Sends a list of hotlines

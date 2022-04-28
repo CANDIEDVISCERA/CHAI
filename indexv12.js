@@ -32,6 +32,6 @@ client.on('message', message => {
 		   message.channel.send(`Here's a Google Doc of various coping skills and other resources! Safe travels <3! https://docs.google.com/document/d/1vZX53BKS7MkvfhjVSoETUpMvTOpkeGo3eRiLNZOsGYs/edit?usp=sharing`)
 	} else if (message.content === `${prefix}breathe`) {
     		const attachment = new MessageAttachment('https://dailyburn.com/life/wp-content/uploads/2016/04/circle-gif-2.gif');
-    		   message.channel.send(attachment);
+    		   message.channel.send(attachment); 
 	});
   
